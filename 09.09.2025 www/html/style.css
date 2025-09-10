@@ -4,11 +4,35 @@ body{
     background-color: rgba(67, 173, 35, 0.466);
 }
 footer{
-    background-color: rgba(67, 173, 35, 0.466);
+    background-color: rgba(59, 71, 56, 0.466);
+    border-radius: 15px;
+    text-align: center;
 }
 div{
+    padding: 5px;
     font-family: Arial;
+    font-style: normal;
+    font-size: large;
+    color:black;
+    text-align: center;
+    font-weight: 900;
+    box-sizing: border-box;
+    border: solid;
+    line-height: 4vh;
+    
+}
+div > span{
+    font-size: 60px;
+    font-style: italic;
+    color: rgba(67, 173, 35, 0.466);
+    font-weight: 700;
 }
 p{
-    font-family: monospace;
+/*    font-family: monospace;
+    font-size: 3vh;
+    font-style: normal;
+    color: black;
+    font-variant: small-caps;
+*/
+    font: normal small-caps normal 3vh /30px monospace;
 }
