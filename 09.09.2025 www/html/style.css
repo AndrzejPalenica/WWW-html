@@ -1,0 +1,14 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgba(67, 173, 35, 0.466);
+}
+footer{
+    background-color: rgba(67, 173, 35, 0.466);
+}
+div{
+    font-family: Arial;
+}
+p{
+    font-family: monospace;
+}

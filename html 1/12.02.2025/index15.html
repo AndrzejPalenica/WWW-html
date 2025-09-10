@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style15.css">
+    <script src="./java15.js" defer></script>
+</head>
+<body>
+    <form  action="#" method="post">
+        <div class="form-input">
+            <div class="input-label">
+                <label for="username">Nazwa użytkownika</label>
+            </div>
+            <div class="input-input">
+                <input type="text" name="username" id="username">
+            </div>
+        </div>
+        <div class="form-input">
+            <div class="input-label">
+                <label for="password">Hasło</label>
+            </div>
+            <div class="input-input">
+                <input type="password" name="password" id="password">
+            </div>
+        </div>
+        <div class="form-input">
+            <div class="input-label">
+                <label for="avatar">Avatar</label>
+            </div>
+            <div class="input-input">
+                <input type="file" name="avatar" id="avatar">
+            </div>
+        </div>
+        <div class="form-input">
+            <div class="input-label">
+                <label for="sex-female">Płeć</label>
+            </div>
+            <div class="input-input">
+                <div>
+                    <input type="radio" name="sex" id="sex-female" value="f">
+                    <label for="sex-female">Kobieta</label>
+                </div>
+                <div>
+                    <input type="radio" name="sex" id="sex-male" value="m">
+                    <label for="sex-male">Mężczyzna</label>
+                </div>
+            </div>
+        </div>
+        <div class="form-input">
+            <div class="input-label">
+                <label for="birthyear">Rok urodzenia</label>
+            </div>
+            <div class="input-input">
+                <input type="number" name="birthyear" id="birthyear" min="1900" max="9999">
+            </div>
+        </div>
+        <div class="form-input">
+            <input type="submit" value="Zapisz">
+            <input type="reset" value="Wyczyść">
+        </div>
+        <!--
+        <div class="form-input">
+            <div class="input-label">
+                <label for="txt1">Jakaś treść 1</label>
+            </div>
+            <div class="input-input">                
+                <input type="text" name="txt1" id="txt1">
+            </div>
+        </div>
+        -->
+    </form>
+</body>
+</html>

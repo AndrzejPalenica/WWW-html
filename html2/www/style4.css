@@ -1,0 +1,85 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #cef;
+  }
+  body > header {
+    height: 10vh;
+  }
+  body > header > h1 {
+    line-height: 10vh;
+    text-align: center;
+  }
+  
+  nav {
+    background-color: #cad;
+    min-height: 5vh;
+    line-height: 5vh;
+  }
+  nav > ul {
+    display: flex;
+    list-style-type: none;
+  }
+  nav > ul > li {
+    width: 10vw;
+  }
+  nav > ul > li > a {
+    display: block;
+    text-align: center;
+    color: #123;
+    text-decoration:none;
+  }
+  nav > ul > li > a:hover {
+    background-color: #cda;
+  }
+  #container {
+    display:flex;
+  }
+  #container > aside {
+    width: 15vw;
+    background-color: #cad
+  }
+  #container > aside > ul {
+    display:flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+  #container > aside > ul > li {
+    height: 2.5vh;
+    line-height: 2.5vh;
+  }
+  #container > aside > ul > li > a {
+    display: block;
+    text-align: center;
+    color: #123;
+    text-decoration: none;
+  }
+  #container > aside > ul >li >a:hover {
+    background-color: #cda;
+  }
+  #container > main {
+    width: 85vw;
+    padding: 15px;
+    border-left: 1px solid #111;
+  }
+  #container > main section {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  #container > main article header {
+    text-align: center;
+  }
+  #container > main article p {
+    text-indent: 25px;
+    text-align: justify;
+  }
+  footer {
+    background-color: #cad;
+    min-height: 5vh;
+    line-height: 5vh;
+    text-align: center;
+  }

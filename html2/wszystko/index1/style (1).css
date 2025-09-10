@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+table.table-1 {
+    margin: auto;
+    width: 100vw;
+}
+table.table-1 > thead > tr > th:first-child {
+    width: 5vw;
+    background-color: #ff0;
+}
+table.table-1 > thead > tr > th:nth-child(3) {
+    width: 10vw;
+    background-color: #0ff;
+}
+table.table-1 > thead > tr > th:last-child {
+    width: 15vw;
+    background-color: #f0f;
+}
+
+table.table-1 th, table.table-1 td {
+    padding: 10px;
+}
+
+table, th, td {
+    margin: 20px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.table-2 {
+    background-image: url("informatyk-zsl-850x560.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: auto;
+    width: 75vw;
+}
+.table-2 th, .table-2 td {
+    padding: 5px;
+}
+.table-2 th:last-child, .table-2 td:last-child {
+    background-color: rgba(100, 220, 200, 0.3);
+}
+.table-2 tbody tr:nth-child(even) {
+    background-color: rgba(200, 200, 200, 0.3);
+}

@@ -1,0 +1,48 @@
+html, body, main, section, div, img {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  #gallery {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+  }
+  #gallery > .gallery-image {
+    width: 90vw;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fefefe;
+    margin-bottom: 5px;
+    margin-top: 5px;
+  }
+  #gallery > .gallery-image:hover {
+    background-color: #efefef;
+  }
+  #gallery > .gallery-image > .image-img {
+    padding: 5px;
+  }
+  #gallery > .gallery-image > .image-description {
+    border-top: 1px solid #ccc;
+    padding: 5px;
+    text-align: center;
+  }
+  
+  @media screen and (min-width: 992px) {
+    #gallery > .gallery-image {
+      width: 44vw;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    #gallery > .gallery-image {
+      width: 24vw;
+    }
+  }

@@ -1,0 +1,46 @@
+.color-green {
+    background-color: green;
+  }
+  
+  p.color-green {
+    background-color: transparent;
+    color: green;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-justify {
+    text-align: justify;
+  }
+  
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-last-center {
+    -moz-text-align-last: center;
+         text-align-last: center;
+  }
+  
+  .text-underline {
+    text-decoration: underline;
+  }
+
+  h3 {
+    -webkit-text-decoration: overline wavy #f00 2px;
+            text-decoration: overline wavy #f00 2px;
+    text-transform: uppercase;
+    letter-spacing: -2px;
+ }
+
+ p {
+    text-indent: 50px;
+    line-height: 25px;
+    letter-spacing: 5px;
+  }

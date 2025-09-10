@@ -1,0 +1,54 @@
+html,body,nav,div,aside,main,header,h1,section,article,footer{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(92, 88, 148);
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    min-height: 5vh;
+    background-color: rgb(182, 216, 30);
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+nav ul a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+nav > ul {
+    display: flex;
+}
+nav > ul > li {
+    height: 5vh;
+    line-height: 5vh;
+    width: 10vw;
+    text-align: center;
+}
+nav > ul > li > ul {
+    display: none;
+    position: absolute;
+    width: 10vw;
+}
+nav > ul > li:hover {
+    background-color: rgb(110, 100, 4);
+}
+nav > ul > li:hover > ul {
+    display: flex;
+    flex-direction: column;
+}
+nav > ul > li:hover > ul > li {
+    background-color: rgb(132, 134, 18);
+}
+nav > ul > li:hover > ul > li:hover {
+    background-color: rgb(105, 107, 4);
+}
+nav > ul > li:hover > ul > li:last-child {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

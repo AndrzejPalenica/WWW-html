@@ -1,0 +1,55 @@
+/* @media print{
+    body{
+        color: white;
+        background-color: green;
+
+    }
+}
+body div{
+    margin: 10px;
+    border-style: solid;
+    border-color: rgb(131, 148, 35)
+}
+.px{
+    width: 10px;
+    height: 10px;                           
+}
+.in{
+    width: 10in;
+    height: 10in;
+}
+.cm{
+    width: 10cm;
+    height: 10cm;
+}
+.mm{
+    width: 10mm;
+    height: 10mm;
+}
+.pt{
+    width: 10pt;
+    height: 10pt;
+}
+.pc{
+    width: 10pc;
+    height: 10pc;
+}
+.vh{
+    background-color: black;
+    width: 10vh;
+    height: 10vw;
+}
+.f-em{
+    font-size: 1.5rem;
+} */
+
+div.vmin{
+    background-color: blue;
+    height: 10vmin;
+    width: 10vmin;
+}
+div.vmax{
+    background-color: red;
+    height: 10vmax;
+    width: 10vmax;
+}

@@ -1,0 +1,46 @@
+html,body,form, div{
+    padding: 0;
+    margin:0;
+}
+
+form {
+    margin: 10px auto 10px;
+    padding: 10px;
+    border: 1px solid #102030;
+    width: 50vw;
+}
+form input{
+    padding: 5px;
+    border: 1px solid #102030;
+    border-radius: 5px;
+}
+form div.form-input {
+    display: flex;
+    padding: 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+form div.form-input > div.input-label{
+    width: 40%;
+    text-align: right;
+}
+form div.form-input > div.input-input{
+    width: 60%;
+    text-align: center;
+}
+form div.form-input > div.input-input > input[type=text], form div.form-input > div.input-input > input[type=password], form div.form-input > div.input-input > input[type=email], form div.form-input > div.input-input > input[type=file], form div.form-input > div.input-input > input[type=number], form div.form-input > div.input-input > input[type=date], form div.form-input > div.input-input > input[type=color]{
+    width: 70%;
+}
+form div.form-input input[type=submit], form div.form-input input[type=reset], form div.form-input input[type=button]{
+    width: 40%;
+    margin: 0 5px 0 5px;
+}
+form div.form-input input[type=submit]{
+    color: #eee;
+    background-color: green;
+  }
+form div.form-input input[type=reset]{
+    color: #eee;
+    background-color: #800000;
+}

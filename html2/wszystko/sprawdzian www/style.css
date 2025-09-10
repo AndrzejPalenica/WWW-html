@@ -1,0 +1,183 @@
+@media screen and (min-width: 600px){ 
+div.container{ 
+    display: flex; 
+    flex-direction: column-reverse; 
+}
+div.container > main > article > section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+div.container >aside{
+    background: #e2e2e2;
+}
+div.container > main{
+    background-color: gainsboro;
+}
+div.container > main > article > form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: gainsboro;
+}
+header { 
+    height: 10vh; 
+    line-height: 10vh; 
+    background-color: rgb(127, 159, 111); 
+}
+header > h1 { 
+    font-family: sans-serif;
+    text-align: center;
+}
+nav {
+    justify-content: right;
+    display: flex;
+    flex-direction: row;
+    min-height: 5vh;
+    background-color: rgb(123, 199, 127);
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+  }
+  nav > ul {
+    display: flex;
+  }
+  nav > ul > li {
+    height: 5vh;
+    line-height: 5vh;
+    width: 15vw;
+    text-align: center;
+  }
+  nav > ul > li > ul {
+    display: none;
+    position: absolute;
+    width: 15vw;
+  }
+  nav > ul > li:hover {
+    background-color: rgb(102, 165, 105);
+  }
+  nav > ul > li:hover > ul {
+    display: flex;
+    flex-direction: column;
+  }
+  nav > ul > li:hover > ul > li {
+    background-color: rgb(102, 165, 105);
+  }
+  nav > ul > li:hover > ul > li:hover {
+    background-color: rgb(123, 199, 127);
+  }
+  nav > ul > li:hover > ul > li:last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  footer{
+    height: 10vh;
+    line-height: 10vh;
+    background-color: rgb(127, 159, 111);
+}
+}
+@media screen and (min-width: 992px){
+    div.container > main{
+        background-color: gainsboro;
+    }
+    div.container >aside{
+        justify-content: left;
+        width: 20vw;
+        background: #e2e2e2;
+        padding: 5px;
+    }
+    div.container{
+        display: flex;
+        flex-direction: row;
+    }
+    div.container > main > article > section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: gainsboro;
+    }
+    div.container > main > article > form{
+        justify-content: center;
+        align-items: center;
+        background-color: gainsboro;
+    }
+    div.container > main > article > form >div.form-input{
+        display: flex;
+        padding: 5px;
+        align-items: center;
+        justify-content: center;
+    }
+    header{
+        height: 10vh;
+        line-height: 10vh;
+        background-color: rgb(127, 159, 111);
+    }
+    header > h1{
+        font-family: sans-serif;
+        text-align: center;
+    }
+    nav{
+        justify-content: left;
+        display: flex;
+        flex-direction: row;
+        min-height: 5vh;
+        background-color: rgb(123, 199, 127);
+    }
+    nav ul{
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    nav ul a{
+        display: block;
+        color: #000;
+        text-decoration: none;
+    }
+    nav > ul{
+        display: flex;
+    }
+    nav > ul > li{
+        height: 5vh;
+        line-height: 5vh;
+        width: 10vw;
+        text-align: center;
+    }
+    nav > ul > li > ul{
+        display: none;
+        position: absolute;
+        width: 10vw;
+    }
+    nav > ul > li:hover{
+        background-color: rgb(102, 165, 105);
+    }
+    nav > ul > li:hover > ul{
+        display: flex;
+        flex-direction: column;
+    }
+    nav > ul > li:hover > ul > li{
+        background-color: rgb(102, 165, 105);
+    }
+    nav > ul > li:hover > ul > li:hover{
+        background-color: rgb(123, 199, 127);
+    }
+    nav > ul > li:hover > ul > li:last-child{
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+    }
+    footer{
+        height: 10vh;
+        line-height: 10vh;
+        background-color: rgb(127, 159, 111);
+    }
+}

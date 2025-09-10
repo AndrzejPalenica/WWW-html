@@ -1,0 +1,68 @@
+html, body, header, nav, h1, p {
+    padding: 0;
+    margin: 0;
+  }
+  
+  header {
+    height: 10vh;
+    line-height: 10vh;
+    background-color: rgb(127, 159, 111);
+  }
+  header > h1 {
+    font-family: sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    flex-direction: row;
+    min-height: 5vh;
+    background-color: rgb(123, 199, 127);
+  }
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  nav ul a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+  }
+  nav > ul {
+    display: flex;
+  }
+  nav > ul > li {
+    height: 5vh;
+    line-height: 5vh;
+    width: 10vw;
+    text-align: center;
+  }
+  nav > ul > li > ul {
+    display: none;
+    position: absolute;
+    width: 10vw;
+  }
+  nav > ul > li:hover {
+    background-color: rgb(102, 165, 105);
+  }
+  nav > ul > li:hover > ul {
+    display: flex;
+    flex-direction: column;
+  }
+  nav > ul > li:hover > ul > li {
+    background-color: rgb(102, 165, 105);
+  }
+  nav > ul > li:hover > ul > li:hover {
+    background-color: rgb(123, 199, 127);
+  }
+  nav > ul > li:hover > ul > li:last-child {
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  main {
+    background-color: rgb(100, 158, 72);
+  }
+  main p {
+    line-height: 1.5rem;
+  }
