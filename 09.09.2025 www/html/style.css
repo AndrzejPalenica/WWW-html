@@ -1,4 +1,4 @@
-body{
+/*body{
     margin: 0;
     padding: 0;
     background-color: rgba(67, 173, 35, 0.466);
@@ -28,11 +28,63 @@ div > span{
     font-weight: 700;
 }
 p{
-/*    font-family: monospace;
+    font-family: monospace;
     font-size: 3vh;
     font-style: normal;
     color: black;
     font-variant: small-caps;
-*/
+
+    text-indent: 5vw;
     font: normal small-caps normal 3vh /30px monospace;
 }
+*/
+
+
+
+
+
+body{
+    background-color:#6b9181da;
+}
+#tekst1{
+    /*
+    font-family: Arial;
+    font-size: large;
+    font-style: italic;
+    line-height: 30px;
+ 
+    */
+    font: italic normal bold 16px /30px Arial;
+    text-indent: 30px;
+    text-align: justify;
+    text-decoration: line-through;
+}
+p{
+    font-family: monospace;
+    font-size: 5vw;
+    font-variant: small-caps;
+    font-weight: bold;
+    text-decoration: underline dotted;
+    color: #02301dda;
+}
+h1{
+    letter-spacing: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+#tekst2{
+    white-space: pre;
+    color: rgba(1, 97, 52, 0)
+}
+
+
+
+
+
+
+
+
+
+/*id: Może być przypisane tylko do jednego elementu na stronie. Służy do identyfikacji konkretnego, unikalnego elementu.
+class: Może być przypisane do wielu elementów. Używane jest do grupowania elementów o podobnych cechach.*/
