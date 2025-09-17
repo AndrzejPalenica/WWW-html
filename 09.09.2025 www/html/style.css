@@ -44,7 +44,12 @@ p{
 
 
 body{
-    background-color:#6b9181da;
+    background-color: rgba(1, 97, 52, 0);
+    background-image: url(hotelarz.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+   /* background: none;*/
 }
 #tekst1{
     /*
