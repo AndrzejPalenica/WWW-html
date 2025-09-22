@@ -63,6 +63,9 @@ body{
     text-indent: 30px;
     text-align: justify;
     text-decoration: line-through;
+    border-style: solid;
+    border-radius: 15px;
+    padding: 20px;
 }
 p{
     font-family: monospace;
@@ -71,16 +74,23 @@ p{
     font-weight: bold;
     text-decoration: underline dotted;
     color: #02301dda;
+    border-style: solid dotted;
+    padding: 15px;
 }
 h1{
     letter-spacing: 20px;
     text-align: center;
     text-transform: capitalize;
+/*   border-style: double dotted dashed solid;
+    border-width: 5px 10px 15px 20px; */
+    border-style: ridge;
+    border-width: 20px;
+    border-color: #d6e225da greenyellow;
     
 }
 #tekst2{
     white-space: pre;
-    color: rgba(1, 97, 52, 0)
+    color: rgba(1, 97, 52, 0);
 }
 
 
