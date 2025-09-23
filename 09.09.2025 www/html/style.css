@@ -33,15 +33,10 @@ p{
     font-style: normal;
     color: black;
     font-variant: small-caps;
-
     text-indent: 5vw;
     font: normal small-caps normal 3vh /30px monospace;
 }
 */
-
-
-
-
 
 body{
     background-color: rgba(1, 97, 52, 0);
@@ -65,7 +60,8 @@ body{
     text-decoration: line-through;
     border-style: solid;
     border-radius: 15px;
-    padding: 20px;
+    padding: 30px 60px;
+    margin-top: 20px;
 }
 p{
     font-family: monospace;
@@ -74,7 +70,7 @@ p{
     font-weight: bold;
     text-decoration: underline dotted;
     color: #02301dda;
-    border-style: solid dotted;
+    border-style: dotted solid;
     padding: 15px;
 }
 h1{
@@ -86,13 +82,16 @@ h1{
     border-style: ridge;
     border-width: 20px;
     border-color: #d6e225da greenyellow;
+    margin-bottom: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
     
 }
 #tekst2{
     white-space: pre;
     color: rgba(1, 97, 52, 0);
 }
-
 
 
 
