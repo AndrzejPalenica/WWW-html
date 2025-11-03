@@ -100,7 +100,10 @@ h1{
 
 ul{
     font-size: 20px;
-    list-style-type: upper-roman;
+    /*list-style-type: upper-roman;*/
+    list-style-image: url(z.gif);
+    list-style-position: outside;
+    
 }
 
 
