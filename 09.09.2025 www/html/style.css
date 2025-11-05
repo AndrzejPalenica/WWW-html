@@ -95,9 +95,16 @@ h1{
 }
 #tekst2{
     white-space: pre;
-    color: rgba(1, 97, 52, 0);
+    color: #02301dda;
 }
-
+#pkt3{
+    border: green outset 3px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+/* li{
+    border: red outset 3px;
+} */
 ul{
     font-size: 20px;
     /*list-style-type: upper-roman;*/
@@ -131,7 +138,23 @@ th{
     padding: 10px;
 
 }
+.klasa1{
+    padding: 30px;
+    background-color: yellowgreen;
+}
 
+
+#div1{
+    width: 200px;
+    background-color: green;
+    height: 200px;
+}
+
+#div2{
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+}
 
 
 
