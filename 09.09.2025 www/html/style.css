@@ -45,6 +45,7 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
    /* background: none;*/
+   cursor: url(cursor.cur), default;
 }
 #tekst1{
     /*
@@ -169,18 +170,20 @@ th{
     background-color: rgb(50, 173, 50);
     width: 100px;
     height: 100px;
+    margin-top: 300px;
 }
 #div_dos{
     background-color: darkgreen;
     width: 100px;
     height: 100px;
     margin-bottom: 100px;
+    margin-top: 300px;
 }
 #span_uno{
     background-color: rgb(35, 99, 182);
     width: 100px;
     height: 100px;
-    display: block;
+    display: none;
 }
 #span_dos{
     background-color: rgb(2, 16, 34);
@@ -191,6 +194,34 @@ th{
 }
 /* span nie jest blokiem width, height i margin nie działa, trzeba zmienic model*/
 
+
+
+
+#div_1, #div_2, #div_3{
+    width: 300px;
+    height: 200px;
+    background-color: #dd9b0dda;
+    border: solid 2px black;
+}
+#div_1{
+    background-color: coral;
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+#div_2{
+    width: 250px;
+    height: 250px;
+    float: left;
+}
+#div_3{
+    clear: both;
+    width: 500px;
+}
+#box{
+    margin-left: auto;
+    margin-right: auto;
+}
 
 /*id: Może być przypisane tylko do jednego elementu na stronie. Służy do identyfikacji konkretnego, unikalnego elementu.
 class: Może być przypisane do wielu elementów. Używane jest do grupowania elementów o podobnych cechach.
