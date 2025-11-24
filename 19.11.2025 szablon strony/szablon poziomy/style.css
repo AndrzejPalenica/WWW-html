@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(209, 180, 135);
+}
+#header{
+    background-color: blueviolet;
+    height: 150PX;
+}
+#navigation{
+    background-color: blue;
+    height: 100px;
+}
+#content{
+    background-color: brown;
+    height: 450px;
+}
+#footer{
+    background-color: aquamarine;
+    height: 100px;
+}
+#box{
+width: 1500px;
+margin-left: auto;
+margin-right: auto;
+}
