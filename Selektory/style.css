@@ -1,0 +1,42 @@
+
+/* Wszystkie p pod divem nawet w p w div w #blok1   */
+/* #blok1 p{
+    text-decoration: underline;
+    font-weight: bold;
+}   
+*/
+
+
+
+/* tylko bezpośrednio w #bloku1 p */
+/* #blok1 > p{
+    text-decoration: underline;
+    font-weight: bold;
+}  */
+
+
+
+
+/* tylko sąsiadujący element #blok1 ale pod blok1 */
+/* #blok1 + p{
+    text-decoration: underline;
+    font-weight: bold;
+}   */
+
+
+/* Wszysctkie elementy na równi z nim ale pod blok1 */
+/* #blok1 ~ p{
+    text-decoration: underline;
+    font-weight: bold;
+}  */
+
+
+#link_zsht:visited{
+    color: green;
+}
+
+#p7:hover{
+    background-color: blanchedalmond;
+    color: white;
+    border: gray 2px solid;
+}
