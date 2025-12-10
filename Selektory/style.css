@@ -30,6 +30,15 @@
     font-weight: bold;
 }  */
 
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+body{
+    background-color: rgb(187, 153, 101);
+}
 
 #link_zsht:visited{
     color: green;
@@ -39,4 +48,51 @@
     background-color: blanchedalmond;
     color: white;
     border: gray 2px solid;
+}
+
+#buttom{
+    background-color: #273117;
+    color: #639218;
+    width: 100px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    border: #639218 5px outset;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#buttom:hover{
+    background-color: #639218;
+    color: #273117;
+    border: #273117 5px inset;
+    cursor: pointer;
+    padding-top: 3px;
+    padding-left: 3px;
+    width: 97px;
+    height: 47px;
+
+}
+
+input[type="text"]:focus{
+    color: red;
+    font-weight: 900;
+    background-color: beige;
+    width: 500px;
+    border: double red 5px;
+    text-align: center;
+
+
+}
+
+
+/* p:first-child{
+    background-color: blue;
+} */
+
+p:nth-child(even){
+    background-color: aquamarine;
 }
