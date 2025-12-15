@@ -96,3 +96,26 @@ input[type="text"]:focus{
 p:nth-child(even){
     background-color: aquamarine;
 }
+
+#Lorem::first-line{
+    font-weight: bold;
+}
+
+
+#Lorem::first-letter{
+    font-size: 40px;
+    font-style: italic;
+    border: double brown 2px;
+    background-color: darksalmon;
+}
+
+#Lorem::before{
+    content: "Słynny cytat Wojtka: ";
+}
+
+
+#Lorem::after{
+    content: "Tak było";
+    font-weight: bold;
+    color: gray;
+}
